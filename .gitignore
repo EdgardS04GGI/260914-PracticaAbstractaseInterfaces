@@ -1,0 +1,93 @@
+# =========================
+# Java
+# =========================
+
+# Compilación
+*.class
+
+# Archivos empaquetados
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# =========================
+# Maven
+# =========================
+
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+.flattened-pom.xml
+
+# =========================
+# IntelliJ IDEA
+# =========================
+
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# =========================
+# Eclipse
+# =========================
+
+.classpath
+.project
+.settings/
+.factorypath
+
+# =========================
+# VS Code
+# =========================
+
+.vscode/
+
+# =========================
+# NetBeans
+# =========================
+
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# =========================
+# Sistema operativo
+# =========================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# =========================
+# Archivos temporales
+# =========================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# =========================
+# Persistencia de la aplicación
+# =========================
+
+# Archivos .dat generados por GeoAcademy
+/data/*.dat
