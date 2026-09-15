@@ -1,6 +1,6 @@
 package com.uees.sv.semana10;
 
-public class CardPayment extends Payment implements Authenticable, Refundable, Auditable{
+public class CardPayment extends Payment implements Authenticable, Auditable{
 
 
     public CardPayment(String transaccion) {
